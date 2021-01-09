@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>1.0.0</version>
+    <title>RezaB.API.WebService.NLogExtentions</title>
+    <authors>Reza Barzegaran</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <description>NLog Extentions for Web Services.</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>Web Service WebService NLog Logging</tags>
+  </metadata>
+</package>
