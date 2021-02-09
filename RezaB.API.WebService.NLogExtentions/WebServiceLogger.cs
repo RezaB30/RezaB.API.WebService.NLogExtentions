@@ -45,15 +45,22 @@ namespace RezaB.API.WebService.NLogExtentions
 
         public void LogIncomingMessage(object request)
         {
-            var messageString = string.Empty;
-            XmlSerializer serializer = new XmlSerializer(request.GetType());
-            using (var textWriter = new StringWriter())
+            try
             {
-                serializer.Serialize(textWriter, request);
-                messageString = textWriter.ToString();
-            }
+                var messageString = string.Empty;
+                XmlSerializer serializer = new XmlSerializer(request.GetType());
+                using (var textWriter = new StringWriter())
+                {
+                    serializer.Serialize(textWriter, request);
+                    messageString = textWriter.ToString();
+                }
 
-            _logger.Trace(messageString);
+                _logger.Trace(messageString);
+            }
+            catch (Exception ex)
+            {
+                _logger.Trace(ex, "Error serializing request.");
+            }
         }
 
         private string GetRequestIP()

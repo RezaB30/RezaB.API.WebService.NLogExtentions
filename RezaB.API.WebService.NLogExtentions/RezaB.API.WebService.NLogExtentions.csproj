@@ -12,7 +12,7 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
-	<PackageDescription>NLog Extentions for Web Services.</PackageDescription>
+    <PackageDescription>NLog Extentions for Web Services.</PackageDescription>
     <RepositoryUrl>https://github.com/masteriss/RezaB.API.WebService.NLogExtentions</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>

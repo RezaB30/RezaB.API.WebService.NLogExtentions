@@ -2,14 +2,15 @@
 <package >
   <metadata>
     <id>$id$</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>RezaB.API.WebService.NLogExtentions</title>
     <authors>Reza Barzegaran</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <description>NLog Extentions for Web Services.</description>
-    <releaseNotes>First release.</releaseNotes>
+    <releaseNotes>Exception control in serializing message.</releaseNotes>
     <copyright>$copyright$</copyright>
     <tags>Web Service WebService NLog Logging</tags>
+	<repository type="git" url="https://github.com/masteriss/RezaB.API.WebService.NLogExtentions" branch="master" />
   </metadata>
 </package>
